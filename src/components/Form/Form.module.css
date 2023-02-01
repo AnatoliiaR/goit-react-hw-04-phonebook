@@ -1,0 +1,71 @@
+.section {
+  padding: 10px;
+  display: block;
+  margin-left: 20px;
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+.fieldInput {
+  display: block;
+  width: 90%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #494242;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fieldInput::placeholder {
+  color: #212529;
+  opacity: 0.4;
+}
+
+.fieldInput:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #bdbdbd;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.fieldLabel {
+  display: block;
+  margin-bottom: 0.25rem;
+  text-align: start;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  padding: 0.975rem 0.75rem;
+  font-size: 1rem;
+  margin: 2rem 24rem;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 7px;
+  box-shadow: 0 0 40px 40px rgba(158, 158, 158, 0.75) inset,
+    0 0 0 0 rgba(158, 158, 158, 0.75);
+  font-weight: bold;
+  color: rgb(28, 24, 24);
+  transition: 0.15s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px 0 rgba(158, 158, 158, 0.75) inset,
+    0 0 10px 4px rgba(158, 158, 158, 0.75);
+  color: rgba(35, 32, 32, 0.85);
+}
