@@ -20,7 +20,7 @@ const useLocalStorage = (key, defaultValue) => {
 
 export default function App() {
   const [contacts, setContacts] = useLocalStorage('contacts', []);
-  const [filter, setFilter] = useState('');
+  const [filter, setFilter] = useLocalStorage('filter', '');
 
   const addContact = ({ name, number }) => {
     const contact = {
